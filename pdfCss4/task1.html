@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1{
+        border: solid;
+        position: relative;
+        z-index: 1;
+    }
+    .box2{
+        margin-top: -5%;
+        margin-left: 20%;
+        position: absolute;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(24, 252, 112);
+        z-index: 3;
+    }
+    .box3{
+        position: fixed;
+        background-color: blue;
+        color: white;
+        width: 500px;
+        height: 50px;
+        z-index: 2;
+    }
+</style>
+<body>
+    <h1>this your first position & Z-index tassk</h1>
+    <div class="box1">
+        <p>div position -relative</p>
+    </div>
+
+    <div class="box2">
+        <p>Div 3 position =absolute</p>
+    </div>
+
+    <div class="box3">
+      <p>div2 position =flxed & z-index</p>
+
+    </div>
+</body>
+</html>
